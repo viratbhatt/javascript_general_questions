@@ -1,0 +1,21 @@
+var v,i,j,k;
+a=[1,4,5,9];
+b=[2,3,12,15];
+v=a.length+b.length;
+c=[];
+j=0;
+k=0;
+for(i=0;i<v;i++)
+{
+    if(a[j]<b[k])
+    {
+        c[i]=a[j];
+        j++;
+    }
+    else
+    {
+        c[i]=b[k];
+        k++;
+    }
+}
+console.log(c)
